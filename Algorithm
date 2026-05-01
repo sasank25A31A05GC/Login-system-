@@ -1,0 +1,59 @@
+Algorithm: User Registration and Login System
+
+Start
+
+Step 1: Display Menu
+
+1. Display options: Register, Login, Exit.
+
+2. Read user choice.
+
+Step 2: Process Choice
+
+Case 1: Register User
+
+1. Display Registration.
+
+2. Input username and password.
+
+3. Open file "users.txt" in append mode.
+
+4. If file fails, display error and return.
+
+5. Write username and password to file.
+
+6. Close file.
+
+7. Display success message.
+
+Case 2: Login User
+
+1. Display Login.
+
+2. Input username and password.
+
+3. Open file "users.txt" in read mode.
+
+4. If file fails, display error and return.
+
+5. Read each record:
+
+- Compare with input.
+
+- If match found, display success and return.
+
+6. If no match, display invalid message.
+
+Case 3: Exit
+
+1. Display exiting message.
+
+2. Stop program.
+
+Default:
+
+Display invalid choice.
+
+Repeat until Exit.
+
+End
